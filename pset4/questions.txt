@@ -1,0 +1,22 @@
+0.  GIF supports 255 different colours within one single image
+1.  TODO
+2.  TODO
+3.  TODO
+4.  TODO
+5.  TODO
+6.  stdint.h is a library containing integer types of specific widths
+7.  Being able to specify the exact byte size of an integer means that there won't be any portability issues cause by one system interpreting int as e.g. 16 bit, while another interprets it as 32 bit.
+8.  
+BYTE    1
+DWORD   4
+LONG    4
+WORD    2
+9.      BM
+10.     bfSize is the byte size of the entire file, while biSize is the byte size of only the structure (image)
+11. A negative biHeight means that the bitmap structure is top-down, rather than bottom-up
+12. The biBitCount field indicates the number of bits per pixel
+13. If the file does not exist, or the file has the wrong permissions for the type of opening request, fopen will return the NULL pointer
+14. Tells the program how many elements are being read. We are reading structs, one at a time, so it is set to 1.
+16. fseek sets the file position to a given offset
+17. SEEK_CUR is the current position of the file pointer
+18. TODO
